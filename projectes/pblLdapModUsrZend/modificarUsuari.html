@@ -1,0 +1,27 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 >MOdificar Dades Usuari</h1>
+    <div style="font-size: 20px"> 
+		<form class="text-secondary"  action="modificarUsuari.php" method="POST">
+			<font face="Arial">
+                Identificador Usuari:
+                <input type="text" name="cn"><br><br>
+                Unitat Organitzativa:
+                <input type="text" name="ou"><br><br>
+                Atribut a Modificar:<br>
+                <input type="radio" name="opcions" value="mobile">
+                <label for="mobile">Mobile</label><br>
+                <input type="radio" name="opcions" value="telephoneNumber">
+                <label for="telephoneNumber">telephoneNumber</label><br>
+                <input type="radio" name="opcions" value="postalAddress">
+                <label for="postalAddress">postalAddress</label><br>
+                <input type="text" name="mod">
+                <input class="btn btn-primary" type="submit"/>
+			</font>
+		</form>
+	</div>
+  </body>
+</html>
